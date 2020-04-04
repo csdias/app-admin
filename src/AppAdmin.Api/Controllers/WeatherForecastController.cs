@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace AppZelador.Api.Controllers
+namespace AppAdmin.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

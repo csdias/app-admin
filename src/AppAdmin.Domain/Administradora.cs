@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AppZelador.Domain {
+namespace AppAdmin.Domain {
     public class Administradora
     {
         public int AdministradoraId { get; set; }

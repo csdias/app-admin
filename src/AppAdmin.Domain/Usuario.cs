@@ -1,6 +1,6 @@
 //using
 
-namespace AppZelador.Domain {
+namespace AppAdmin.Domain {
     public class Usuario
     {
         public int UsuarioId { get; set; }

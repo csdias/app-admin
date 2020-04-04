@@ -1,6 +1,6 @@
 using System;
 
-namespace AppZelador.Api
+namespace AppAdmin.Api
 {
     public class WeatherForecast
     {

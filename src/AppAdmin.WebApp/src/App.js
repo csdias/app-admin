@@ -11,6 +11,7 @@ function App() {
       <ul>
         <ui><p>Usuario - Tipo de Usuário</p></ui>
         <ui>Assunto - Tipo de Assunto</ui>
+        <ui>Automatizar app_admin.db</ui>        
       </ul>
     </div>
   );

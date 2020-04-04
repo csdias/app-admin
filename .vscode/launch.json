@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/AppAdmin.Console/bin/Debug/netcoreapp3.1/AppAdmin.Console.exe",
+            "program": "${workspaceFolder}/src/AppAdmin.Console/bin/Debug/netcoreapp3.1/AppAdmin.Console.exe",
             "args": [],
-            "cwd": "${workspaceFolder}/EFGetStarted",
+            "cwd": "${workspaceFolder}/src/AppAdmin.Console",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

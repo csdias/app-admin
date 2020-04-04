@@ -1,9 +1,9 @@
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using AppAdmin.Domain;
 
-namespace AppZelador.Data
+namespace AppAdmin.Data
 {
-    public class AppZeladorContext : DbContext
+    public class AppAdminContext : DbContext
     {
         public DbSet<Administradora> Administradoras { get; set; }
         public DbSet<Condominio> Condominios { get; set; }
@@ -11,6 +11,6 @@ namespace AppZelador.Data
         public DbSet<Assunto> Assuntos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite("Data Source=appzelador.db");
+            => options.UseSqlite("Data Source=app_admin.db");
     }
 }
