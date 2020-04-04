@@ -2,6 +2,7 @@
 
 # dependencies
 src/AppAdmin.WebApp/node_modules/
+
 /.pnp
 .pnp.js
 
