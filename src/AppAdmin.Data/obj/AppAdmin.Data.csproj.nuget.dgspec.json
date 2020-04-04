@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj": {}
+    "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Data\\AppAdmin.Data.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj": {
+    "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Data\\AppAdmin.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj",
-        "projectName": "AppZelador.Data",
-        "projectPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj",
+        "projectUniqueName": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Data\\AppAdmin.Data.csproj",
+        "projectName": "AppAdmin.Data",
+        "projectPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Data\\AppAdmin.Data.csproj",
         "packagesPath": "C:\\Users\\csdia\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\obj\\",
+        "outputPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -41,7 +41,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,11 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }

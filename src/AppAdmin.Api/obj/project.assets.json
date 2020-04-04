@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj",
-      "projectName": "AppZelador.Data",
-      "projectPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\AppZelador.Data.csproj",
+      "projectUniqueName": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj",
+      "projectName": "AppAdmin.Api",
+      "projectPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj",
       "packagesPath": "C:\\Users\\csdia\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Data\\obj\\",
+      "outputPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -61,6 +61,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

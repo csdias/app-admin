@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Api\\AppZelador.Api.csproj": {}
+    "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Api\\AppZelador.Api.csproj": {
+    "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Api\\AppZelador.Api.csproj",
-        "projectName": "AppZelador.Api",
-        "projectPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Api\\AppZelador.Api.csproj",
+        "projectUniqueName": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj",
+        "projectName": "AppAdmin.Api",
+        "projectPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\AppAdmin.Api.csproj",
         "packagesPath": "C:\\Users\\csdia\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\CSharp\\Athos\\AppZelador\\AppZelador.Api\\obj\\",
+        "outputPath": "e:\\Projetos\\CSharp\\Athos\\AppAdmin\\src\\AppAdmin.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
